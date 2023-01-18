@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./İmg/background.jpg);
+  background-size: cover;
+}
+
+.h1 {
+  margin-top: 10%;
+  margin-left: 45%;
+}
+
+.main_input {
+  margin-top: 15px;
+  margin-left: 42%;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.button {
+  height: 30px;
+  width: 50px;
+  border-radius: 5px;
+}
+
+.add {
+  background-color: green;
+  color: white;
+}
+
+.clear {
+  background-color: orange;
+  color: white;
+}
+
+.button:active {
+  transform: translate(3%, 3%);
+}
+
+.add:active {
+  background-color: rgba(0, 158, 90, 100);
+}
+
+.clear:active {
+  background-color: rgba(255, 105, 10, 100);
+}
