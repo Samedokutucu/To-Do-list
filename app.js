@@ -1,5 +1,6 @@
-const goal = document.getElementById("goal");
-const plus = document.querySelector("plus");
-const cancel = document.querySelector("delete");
+let myText;
+document.getElementById("myBtn").addEventListener("click", myText);
 
-function ad()
+function myText() {
+  document.getElementById("demo").innerHTML = myText();
+}

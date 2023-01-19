@@ -4,18 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>To Do list</title>
   </head>
   <body>
-    <div class="main">
-      <h1 class="h1">TO DO LİST</h1>
-      <input type="text" class="main_input" />
-      <button class="button add" type="button" onclick="add()">Add</button>
-      <button class="button clear" type="button" onclick="clear()">
-        Clear
-      </button>
-    </div>
+    <main class="container">
+      <header>TODO List</header>
+      <section class="todo-add">
+        <form class="todo-add">
+          <input
+            type="text"
+            id="todo-input"
+            placeholder="Add New Todo..."
+            autofocus
+          />
+          <button type="submit" id="todo-button">Add</button>
+        </form>
+      </section>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
